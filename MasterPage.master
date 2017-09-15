@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Quiz</title>
+
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="templatemo_header_wrapper">
+    <div id="templatemo_header">
+    	<div id="site_title">
+            <h1>
+                &nbsp;</a><span style="width: 261px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="images/templatemo_logo.png" alt="Site Title" aria-atomic="True" aria-disabled="True" dir="rtl" role="heading" />Education &amp; Examination</span></h1>
+        </div>
+        <p role="status" style="font-family: cursive; font-size: large; text-decoration: underline; background-color: #FFFFFF">Our Online Quiz is developed for multiple choice. 
+
+</div>
+
+<div id="templatemo_menu_wrapper">
+    <div id="templatemo_menu">
+        
+        <ul>
+            <li><a href="home.aspx" class="current">HOME</a></li>
+            <li><a href="Adminlogin.aspx" target="_parent">ADMIN LOGIN</a></li>
+            <li><a href="Users.aspx" target="_parent">NEW USERS</a></li>
+            <li><a href="About_us.aspx" target="_parent">ABOUT US</a></li>
+            <li></li>
+            <li><a href="Contact_us.aspx" target="_parent">CONTACT US</a></li>
+        </ul>    	
+    
+    </div> <!-- end of templatemo_menu -->
+</div>
+
+
+<br />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+
+    <div id="templatemo_footer">
+    
+       <ul class="footer_menu">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                </ul>
+                
+                <br />
+                <br />
+                <br />
+                
+    </div>
+    
+
+    </form>
+</body>
+</html>
